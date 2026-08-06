@@ -23,6 +23,8 @@ window.SITE = {
 
   /* 5. 公司資訊 */
   company:     "珩忠誠共創股份有限公司",
+  groupName:   "鈊誠集團 iSTAR GROUP",
+  groupUrl:    "https://www.iwillstar.com/",
   taxId:       "",          // 統一編號，例如 "12345678"
   address:     "",          // 例如 "臺中市西區…"
   serviceArea: "全臺授課．臺中出發",

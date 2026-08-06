@@ -13,7 +13,8 @@
       facebook: C.facebook,
       instagram: C.instagram,
       youtube: C.youtube,
-      phone: C.phone ? "tel:" + C.phone.replace(/[^0-9+]/g, "") : ""
+      phone: C.phone ? "tel:" + C.phone.replace(/[^0-9+]/g, "") : "",
+      group: C.groupUrl
     };
     document.querySelectorAll("[data-link]").forEach(function (el) {
       var v = map[el.getAttribute("data-link")];
