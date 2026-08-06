@@ -14,7 +14,8 @@
       instagram: C.instagram,
       youtube: C.youtube,
       phone: C.phone ? "tel:" + C.phone.replace(/[^0-9+]/g, "") : "",
-      group: C.groupUrl
+      group: C.groupUrl,
+      app: C.appUrl
     };
     document.querySelectorAll("[data-link]").forEach(function (el) {
       var v = map[el.getAttribute("data-link")];

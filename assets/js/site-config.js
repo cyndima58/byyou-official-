@@ -29,6 +29,9 @@ window.SITE = {
   address:     "",          // 例如 "臺中市西區…"
   serviceArea: "全臺授課．臺中出發",
 
-  /* 6. 網站網址 */
+  /* 6. 人生解鎖局 App（PWA，可加到手機桌面） */
+  appUrl: "https://by-you.vercel.app/",
+
+  /* 7. 網站網址 */
   siteUrl: "https://byyou.life"
 };
